@@ -10,7 +10,7 @@ Deposit your CV in the same personal github repository when you are completed wi
 # Task
 Choose only 1 of the problem to work on:
 
-**A.** Pre-process the data into and store into a database, create a metadata dashboard for this dataset e.g. how many rows, columns, missing values, etc.
+**A.** Pre-process the data and store into a database, create a metadata dashboard for this dataset e.g. how many rows, columns, missing values, etc.
 
 or.
 
