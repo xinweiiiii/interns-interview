@@ -3,6 +3,8 @@ Candidates who use Python/ Microsoft Azure Functions/ SQL Database/ MongoDB/ Mic
 
 **Fork a copy first into your github!** Implement the task and document/ comment the codes in your own github repository.
 
+**You may** work with a team up to 3 pax.
+
 Deposit your CV in the same personal github repository when you are completed with the Task.
 
 # Task
