@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh17180\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 -- phpMyAdmin SQL Dump\
+-- version 4.9.0.1\
+-- https://www.phpmyadmin.net/\
+--\
+-- Host: localhost:8889\
+-- Generation Time: Jul 27, 2020 at 11:41 AM\
+-- Server version: 5.7.26\
+-- PHP Version: 7.3.8\
+\
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";\
+SET time_zone = "+00:00";\
+\
+--\
+-- Database: `financial_data`\
+--\
+\
+-- --------------------------------------------------------\
+\
+--\
+-- Table structure for table `Balance_Sheet`\
+--\
+\
+CREATE TABLE `Balance_Sheet` (\
+  `Account_Info` varchar(256) NOT NULL,\
+  `Year_2005` varchar(128) NOT NULL,\
+  `Year_2006` varchar(128) NOT NULL,\
+  `Year_2007` varchar(128) NOT NULL,\
+  `Year_2008` varchar(128) NOT NULL,\
+  `Year_2009` varchar(128) NOT NULL,\
+  `Year_2010` varchar(128) NOT NULL,\
+  `Year_2011` varchar(128) NOT NULL,\
+  `Year_2012` varchar(128) NOT NULL,\
+  `Year_2013` varchar(128) NOT NULL,\
+  `Year_2014` varchar(128) NOT NULL,\
+  `Year_2015` varchar(128) NOT NULL,\
+  `Year_2016` varchar(128) NOT NULL,\
+  `Year_2017` varchar(128) NOT NULL,\
+  `Year_2018` varchar(128) NOT NULL,\
+  `Year_2019` varchar(128) NOT NULL\
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;\
+\
+--\
+-- Dumping data for table `Balance_Sheet`\
+--\
+
+-- --------------------------------------------------------\
+\
+--\
+-- Table structure for table `Cash_Flow`\
+--\
+\
+CREATE TABLE `Cash_Flow` (\
+  `Account_Info` varchar(256) NOT NULL,\
+  `Year_2005` varchar(128) NOT NULL,\
+  `Year_2006` varchar(128) NOT NULL,\
+  `Year_2007` varchar(128) NOT NULL,\
+  `Year_2008` varchar(128) NOT NULL,\
+  `Year_2009` varchar(128) NOT NULL,\
+  `Year_2010` varchar(128) NOT NULL,\
+  `Year_2011` varchar(128) NOT NULL,\
+  `Year_2012` varchar(128) NOT NULL,\
+  `Year_2013` varchar(128) NOT NULL,\
+  `Year_2014` varchar(128) NOT NULL,\
+  `Year_2015` varchar(128) NOT NULL,\
+  `Year_2016` varchar(128) NOT NULL,\
+  `Year_2017` varchar(128) NOT NULL,\
+  `Year_2018` varchar(128) NOT NULL,\
+  `Year_2019` varchar(128) NOT NULL\
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;\
+\
+--\
+-- Dumping data for table `Cash_Flow`\
+--\
+
+-- --------------------------------------------------------\
+\
+--\
+-- Table structure for table `Financial_Ratio`\
+--\
+\
+CREATE TABLE `Financial_Ratio` (\
+  `Account_Info` varchar(256) NOT NULL,\
+  `Year_2005` varchar(128) NOT NULL,\
+  `Year_2006` varchar(128) NOT NULL,\
+  `Year_2007` varchar(128) NOT NULL,\
+  `Year_2008` varchar(128) NOT NULL,\
+  `Year_2009` varchar(128) NOT NULL,\
+  `Year_2010` varchar(128) NOT NULL,\
+  `Year_2011` varchar(128) NOT NULL,\
+  `Year_2012` varchar(128) NOT NULL,\
+  `Year_2013` varchar(128) NOT NULL,\
+  `Year_2014` varchar(128) NOT NULL,\
+  `Year_2015` varchar(128) NOT NULL,\
+  `Year_2016` varchar(128) NOT NULL,\
+  `Year_2017` varchar(128) NOT NULL,\
+  `Year_2018` varchar(128) NOT NULL,\
+  `Year_2019` varchar(128) NOT NULL\
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;\
+\
+--\
+-- Dumping data for table `Financial_Ratio`\
+--\
+
+-- --------------------------------------------------------\
+\
+--\
+-- Table structure for table `Profit_Loss`\
+--\
+\
+CREATE TABLE `Profit_Loss` (\
+  `Account_Info` varchar(256) NOT NULL,\
+  `Year_2005` varchar(128) NOT NULL,\
+  `Year_2006` varchar(128) NOT NULL,\
+  `Year_2007` varchar(128) NOT NULL,\
+  `Year_2008` varchar(128) NOT NULL,\
+  `Year_2009` varchar(128) NOT NULL,\
+  `Year_2010` varchar(128) NOT NULL,\
+  `Year_2011` varchar(128) NOT NULL,\
+  `Year_2012` varchar(128) NOT NULL,\
+  `Year_2013` varchar(128) NOT NULL,\
+  `Year_2014` varchar(128) NOT NULL,\
+  `Year_2015` varchar(128) NOT NULL,\
+  `Year_2016` varchar(128) NOT NULL,\
+  `Year_2017` varchar(128) NOT NULL,\
+  `Year_2018` varchar(128) NOT NULL,\
+  `Year_2019` varchar(128) NOT NULL\
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;\
+\
+--\
+-- Dumping data for table `Profit_Loss`\
+--\

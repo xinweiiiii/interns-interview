@@ -1,17 +1,26 @@
-# Instructions
-Candidates who use Python/ Microsoft Azure Functions/ SQL Database/ MongoDB/ Microsoft Power BI in their process to implement the task are highly preferred. 
+**A**
+store_data.py
 
-**Fork a copy first into your github!** Implement the task and document/ comment the codes in your own github repository.
+The code in this page is to clean the excel data and store the data into a database (mysql)
 
-**You may** work with a team up to 3 pax.
+- Clean Data by removing Column B of excel data as it consist of a image which will affect the data when processing
+- remove empty column and row
+- Convert the n.a. data into the mean value in the row 
 
-Deposit your CV in the same personal github repository when you are completed with the Task.
+create_metadata.py
 
-# Task
-Choose only 1 of the problem to work on:
+The code in this page is to retrieve data from the database and extract key metadata. Display the metadata by creating a web dashboard using Dash
 
-**A.** Pre-process the data and store into a database, create a metadata dashboard for this dataset e.g. how many rows, columns, missing values, etc.
+Instruction to run the code
+1) pip install dash
+2) pip install dash_bootstrap_components
+3) pip install dash_core_components
+4) pip install dash_html_components
+5) pip install pandas
+6) pip install pandas
+7) pip install mysql.connector
 
-or.
+Run the file it will generate a Localhost URL: http://127.0.0.1:8050/
 
-**B.** Create a visual analytics story from the data - can be dashboard or infographics or slides
+The metadata dashboard will display. This is a Proof of Concept (POC) thus i did not include all the dashboard data
+
